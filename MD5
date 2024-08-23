@@ -1,0 +1,17 @@
+9d789d46d09c4c1e7f1e7e2af67e902b *DESCRIPTION
+1812f66a8daf9f51b4b941f3495d69b7 *LICENSE
+67c4ae6e06fbf620a9c688465fed10d4 *NAMESPACE
+3c2ef3febfc8dccf1c61a89f3dbc3e6a *NEWS.md
+b9da8dfc24d99cea0cc68180233c6c0c *R/defclass.R
+e2134454fd0d63ee55426f527b50d585 *R/generate_data.R
+a7c8379ada4941b1ea30a4db2c588e7d *R/generate_data2.R
+2539fe03a9dad7000c2ca086364053a1 *R/resilp.R
+c3aec39045082fe570573ba8baa24301 *R/silp.R
+b3a3a646058696928baa53f5c3a48d1c *R/utility.R
+28aa123451b21487eb54234879058ff8 *README.md
+ec03df59337145346082d88332fca29b *man/Silp-class.Rd
+32cb276b6dcaf4f2afe9e06868a42cfa *man/figures/README-pressure-1.png
+a615e4bd1a8150f70d885a6503b602a8 *man/generate_data.Rd
+fb7308e4e241aed7e7878f3c92a14708 *man/resilp.Rd
+464fd0ad8ffd1d99f51f389941f0c7c7 *man/silp.Rd
+44d3d2871fc44a64f261f5eb2868f31f *man/summary-methods.Rd

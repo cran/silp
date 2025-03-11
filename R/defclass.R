@@ -4,7 +4,6 @@
 #' @slot raw_model The user-specified `lavaan` syntax model.
 #' @slot rapi_model The revised model with the RAPI method.
 #' @slot time The operation time for `silp` (in seconds).
-#' @slot alp type of reliability used.
 #' @slot npd Logical. Whether the nearest positive definite matrix is used.
 #' @slot raw_data The input data.
 #' @slot fa An object of class `lavaan` representing the CFA result.
@@ -19,13 +18,13 @@
 
 
 setClass("Silp", slots = list(raw_model = "character", rapi_model = "character", 
-                              time = "numeric",alp = "logical", npd = "logical", raw_data = "data.frame", fa = "lavaan", 
+                              time = "numeric", npd = "logical", raw_data = "data.frame", fa = "lavaan", 
                               reliability = "data.frame", composite_data = "data.frame", pa = "lavaan",
                               boot = "data.frame", origine = "data.frame",
                               time_resilp = "numeric"))
 
 setMethod("summary", signature("Silp"),function(object, method = "Bootstrap", sig_level = 0.05){ 
-  print(object@pa) 
+  print(summary(object@pa)) 
 
   if(length(object@time_resilp) != 0){
     b_est = object@boot[,-c(1:11)]
